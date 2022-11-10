@@ -15,7 +15,7 @@ body {
     max-width: 100%;
     position: fixed;
     z-index: 100;
-    background: #F4F9E2;
+    background: url(../img/vivid-blurred-colorful-background_58702-2655.webp) 100% 20%/ 100% no-repeat;
 }
 
 .nav_container {
@@ -34,6 +34,8 @@ body {
 .container-fluid .navbar-brand {
     font-size: 24px;
     font-weight: bolder;
+    color: #62D0DF;
+    background:  
 
 }
 
@@ -41,8 +43,15 @@ body {
     font-size: 18px;
 }
 
+
+@media (max-width: 767px) {
+    .main_container p {
+        color: white;
+    }
+}
+
 .main_container {
-    background: url(../img/Mask%20Group.png) 100% no-repeat, url(../img/Rectangle%203.2.png);
+    background: url(../img/Mask%20Group.png) 100% no-repeat, url(../img/vivid-blurred-colorful-background_58702-2655.webp) center/cover no-repeat;
 }
 
 .main_logo {
@@ -89,7 +98,8 @@ body {
 .btn_main {
     padding: 12px 20px;
     margin-bottom: 75px;
-
+    
+    color: #62D0DF;
     font-size: 16px;
     border-radius: 0px;
     border: 0px;
@@ -296,33 +306,106 @@ body {
     text-align: center;
 }
 
+.img_first{
+    margin-left: -12px;
+}
+
 .img_statics{
     margin-top: -150px;
     margin-bottom: 50px;
 }
 
+.contacts_bg{
+    background-color: #22356F;
+}
 
+.contacts_container h2{
+    padding-top: 80px;
+    margin-bottom: 130px;
+    font-size: 16px;
+    color: white;
+}
 
+.contacts_container .p_one{
+    margin-bottom: 75px;
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+}
 
+.contacts_container .p_two{
+    margin-bottom: 40px;
+    font-size: 36px;
+    line-height: 53px;
+    color: white;
+}
 
+.contacts_btn {
+    padding: 12px 20px;
+    margin-bottom: 42px;
 
+    font-size: 16px;
+    border-radius: 0px;
+    border: 0px;
+    text-align: center;
+}
 
+.contacts_img{
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
 
+.cont_img {
+    margin-left: -12px;
+}
 
+.evidence_container h2{
+    padding-top: 98px;
+    margin-bottom: 40px;
+    font-size: 14px;
+    color: #22356F;
+    font-weight: bold;
+}
 
+@media (max-width:575px) {
+    .evidence_container h2 {
+        padding-top: 50px;
+        margin-bottom: 40px;
+    }
+}
 
+.evidence_container p{
+    font-size: 14px;
+    color: #22356F;
+    opacity: 0.5;
+}
 
+.evidence_container img{
+    margin-left: -12px;
+    max-width: 100%;
+    width: 800px;
+}
 
+.evidence_container .email{
+    color: #006DFF;
+    opacity: 1;
+}
 
+.footer_container{
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: #62D0DF;
+    color: white;
+}
 
+.footer_container{
+    font-size: 14px;
+}
 
-
-
-
-
-
-
-
+.footer_container img{
+    margin-right: 4px;
+    margin-top: -3px;
+}
 
 
 
