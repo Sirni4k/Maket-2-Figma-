@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Larsseit';
+    src: url('../fonts/Larsseit-Regular.woff2') format('woff2'),
+        url('../fonts/Larsseit-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: Larsseit, sans-serif;
+}
+
+.nav_bg {
+    max-width: 100%;
+    position: fixed;
+    z-index: 100;
+    background: #F4F9E2;
+}
+
+.nav_container {
+    background-color: #F4F9E2;
+}
+
+.navbar-toggler {
+    border-radius: 0px;
+    border: 0px;
+}
+
+.container-fluid .navbar-brand:visited {
+    color: #62D0DF;
+}
+
+.container-fluid .navbar-brand {
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.navbar-nav {
+    font-size: 18px;
+}
+
+.main_container {
+    background: url(../img/Mask%20Group.png) 100% no-repeat, url(../img/Rectangle%203.2.png);
+}
+
+.main_logo {
+    margin-top: 187px;
+
+    font-size: 24px;
+    color: #62D0DF;
+    font-weight: 700;
+}
+
+.main_h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #22356F;
+}
+
+.main_p {
+    font-size: 24px;
+    line-height: 42px;
+}
+
+.main_container img{
+    max-width: 
+}
+
+.why_container {
+    background-color: #62D0DF;
+}
+
+.why_container h2 {
+    margin-top: 153px;
+    margin-bottom: 75px;
+
+    font-size: 36px;
+    color: white;
+}
+
+.why_container p {
+    font-size: 24px;
+    color: white;
+    align-content:
+}
+
+.btn_main {
+    padding: 12px 20px;
+    margin-bottom: 75px;
+
+    font-size: 16px;
+    border-radius: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+.about_container {
+    padding-top: 150px;
+    padding-bottom: 24px;
+}
+
+.about_container .object_1 {
+    font-size: 16px;
+    color: #22356F;
+}
+
+.about_container .object_2 {
+    margin-bottom: 75px;
+
+    font-size: 24px;
+    color: #22356F;
+    line-height: 34px;
+
+}
+
+.about_container .object_3 {
+    font-size: 16px;
+    color: #22356F;
+    opacity: 0.5;
+    line-height: 18px;
+}
+
+.square_container {
+    padding-bottom: 120px;
+}
+
+.square_container hr{
+    margin: 52px auto;
+    
+    width: 500px;
+    max-width: 100%;
+    height: 2px;
+    color: white;
+    opacity: 1;
+}
+
+.square_container p{
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+    margin-top: -25px;
+}
+
+.square_container .circle {
+  background: #E9B730;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin-left: 10px;
+}
+
+.square_1{
+    background-color: #FFE2DE;
+    height: 330px;
+}
+
+.square_1 p{
+    margin-left: 40px;
+}
+
+.square_2{
+    background-color: #C4E769;
+    height: 330px;
+}
+
+.square_2 p{
+    margin-left: 40px;
+}
+
+.square_3{
+    background-color: #62D0DF;
+    height: 330px;
+}
+
+.square_3 p{
+    margin-left: 40px;
+}
+
+.square_4{
+    background-color: #0052C1;
+    height: 330px;
+}
+
+.square_4 p{
+    margin-left: 40px;
+}
+
+.rectangular_container {
+    padding-bottom: 22px;
+}
+
+
+.rectangular_container .circle {
+  background: #E9B730;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+}
+
+
+.rectangular_1 {
+    background-color: #22356F;
+    height: 450px;
+}
+
+.rectangular_container hr{
+    margin: 80px auto 45px;
+    height: 2px;
+    max-width: 100%;
+    color: white;
+    opacity: 1;
+  
+}
+
+.rectangular_container p{
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    margin-top: -28px;
+    margin-left: 30px;
+}
+
+.rectangular_2{
+    background-color: #0052C1;
+    height: 450px;
+}
+
+.rectangular_3{
+    background: url(../img/klybnika.png) center/cover no-repeat;
+    height: 450px;
+}
+
+.rectangular_4{
+    background-color: #62D0DF;
+    height: 450px;
+}
+
+.rectangular_5{
+    background-color: #DEE1FF;
+    height: 450px;
+}
+
+.rectangular_6{
+    background-color: #8F00FF;
+    height: 450px;
+}
+
+.info_container{
+    padding-bottom: 40px;
+}
+
+.info_container .indent_s{
+    padding-top: 55px;
+    padding-bottom: 37px;
+}
+
+.info_container h2{
+    font-size: 28px;
+    color: #22356F;
+    margin-bottom: 28px;
+}
+
+.info_container p{
+    font-size: 16px;
+    color: #22356F;
+    opacity: 0.5;
+}
+
+.statics_container h2{
+    margin-top: 103px;
+    margin-bottom: 210px;
+    font-size: 16px;
+    color: #22356F;
+}
+
+.statics_container p{
+    margin-bottom: 90px;
+    font-size: 36px;
+    line-height: 53px;
+    color: #22356F;
+    font-weight: bold;
+}
+
+.statics_container span{
+    color: #6CD3E1;
+}
+
+.statics_btn {
+    padding: 12px 20px;
+
+    font-size: 16px;
+    border-radius: 0px;
+    border: 0px;
+    text-align: center;
+}
+
+.img_statics{
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
