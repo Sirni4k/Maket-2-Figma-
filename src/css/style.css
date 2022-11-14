@@ -39,6 +39,17 @@ body {
 
 }
 
+.nav-item a{
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.navbar-nav a:hover{
+    display: inline-block;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
 .navbar-nav {
     font-size: 18px;
 }
@@ -258,11 +269,11 @@ body {
 }
 
 .info_container{
+    padding-top: 55px;
     padding-bottom: 40px;
 }
 
 .info_container .indent_s{
-    padding-top: 55px;
     padding-bottom: 37px;
 }
 
